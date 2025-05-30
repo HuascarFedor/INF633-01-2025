@@ -1,0 +1,19 @@
+{
+    "name": "huascarfedor/mfa",
+    "description": "ejemplo de autenticacion multifactor",
+    "type": "project",
+    "require": {
+        "sonata-project/google-authenticator": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Huascarfedor\\Mfa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HuascarFedor",
+            "email": "huascar.fedor@gmail.com"
+        }
+    ]
+}
